@@ -2,8 +2,8 @@
 # Objective:
 The objective of this project is to analyze the Netflix Originals dataset using MySQL queries to extract meaningful insights and trends. By performing various SQL operations such as GROUP BY, HAVING, ORDER BY, LIMIT, JOINS, WINDOW FUNCTIONS, and SUBQUERIES, participants will gain hands-on experience in data analysis and be better prepared for data analyst job roles
 # Dataset:
-Netflix_Originals: https://docs.google.com/spreadsheets/d/14ExfGXNya1fBPs_SlZj4-q2GHLOa4LLbJ9ADJIwK480/edit?gid=979450355#gid=979450355
-Genre_Details: https://docs.google.com/spreadsheets/d/17xAZ21LLYrS8Q6vZHqXyWxe_6SW2Pa-H1EUg__EWGTA/edit?gid=201028059#gid=201028059
+1. Netflix_Originals: https://docs.google.com/spreadsheets/d/14ExfGXNya1fBPs_SlZj4-q2GHLOa4LLbJ9ADJIwK480/edit?gid=979450355#gid=979450355
+2. Genre_Details: https://docs.google.com/spreadsheets/d/17xAZ21LLYrS8Q6vZHqXyWxe_6SW2Pa-H1EUg__EWGTA/edit?gid=201028059#gid=201028059
 # Datasets Description:
 1. Netflix Originals: This dataset contains information about Netflix Originals including title, genre ID, runtime, IMDb score, language, premiere date, etc.
 2. Genre Details: This dataset contains information about genres such as genre ID and genre name.
