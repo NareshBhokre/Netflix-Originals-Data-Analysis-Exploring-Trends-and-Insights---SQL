@@ -25,7 +25,7 @@
    ORDER BY NetflixOriginals DESC
    LIMIT 10;
 
-5.	Retrieve the titles of Netflix Originals along with their respective genres.
+5. Retrieve the titles of Netflix Originals along with their respective genres.
 
    SELECT Title, Genre FROM netflix_originals
    JOIN genre_details gd 
@@ -37,7 +37,7 @@
    RANK () OVER (PARTITION BY Title ORDER BY IMDBScore DESC) as IMDBRank from netflix_originals
    ORDER BY Genre, IMDBRank;
 
-7.	Which Netflix Originals have IMDb scores higher than the average IMDb score of all titles?
+7. Which Netflix Originals have IMDb scores higher than the average IMDb score of all titles?
 
    SELECT title, IMDBScore FROM netflix_originals
    WHERE IMDBScore > (SELECT AVG(IMDBScore) FROM netflix_originals);
@@ -49,7 +49,7 @@
    GROUP BY Genre
    ORDER BY netflix_original_count DESC;
 
-9.	Which genres have more than 5 Netflix Originals with an IMDb score higher than 8?
+9. Which genres have more than 5 Netflix Originals with an IMDb score higher than 8?
 
     SELECT Title AS num_netflix_originals, IMDBScore FROM netflix_originals
     JOIN genre_details gd 
